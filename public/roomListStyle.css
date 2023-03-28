@@ -1,0 +1,115 @@
+body{
+    background-image: url('https://i.imgur.com/Dwthxvd.png');
+}
+
+
+.flex-row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media(min-width: 150px)
+{
+    #rooms{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 25px;
+        width: 125px;
+    }
+    
+    .roomBtn{
+        height: 45px;
+        width: 125px;
+        background-color: darkgrey;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    form{
+        width: 125px;
+    }
+}
+
+@media(min-width: 262px)
+{
+    #rooms{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 25px;
+        width: 250px;
+    }
+    
+    .roomBtn{
+        height: 45px;
+        width: 250px;
+        background-color: darkgrey;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    form{
+        width: 250px;
+    }
+}
+
+@media(min-width: 542px)
+{
+    #rooms{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 25px;
+        width: 480px;
+    }
+    
+    .roomBtn{
+        height: 45px;
+        width: 480px;
+        background-color: darkgrey;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    form{
+        width: 450px;
+    }
+}
+
+@media(min-width: 873px)
+{
+    #rooms{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 25px;
+        width: 800px;
+    }
+    
+    .roomBtn{
+        height: 45px;
+        width: 800px;
+        background-color: darkgrey;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+        width: 800px;
+    }
+
+    form{
+        width: 800px;
+    }
+}
+
+.form-control{
+    margin: 3px;
+}
+
+
